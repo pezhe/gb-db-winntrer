@@ -49,8 +49,8 @@ public class NamedParameterJDBCTemplateManufacturerDao implements ManufacturerDa
     }
 
     @Override
-    public void insert(Manufacturer manufacturer) {
-
+    public Manufacturer save(Manufacturer manufacturer) {
+        return null;
     }
 
     @Override
